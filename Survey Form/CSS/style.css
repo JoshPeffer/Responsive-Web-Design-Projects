@@ -1,0 +1,109 @@
+body{
+    background-color:#15468D;
+    font-family:helvetica, verdana;
+    display:flex;
+    flex-direction:column;
+    justify-content:right;
+    align-items:center;
+}
+#header{
+    color:#ffffff;
+    text-align:center;
+    font-size:3em;
+    margin:10px;
+    margin-top:0px;
+}
+#inner-form{
+    background-color:#ffffff;
+    width:75%;
+    border-radius:10px;
+    height:auto;
+}
+.labels{
+    margin:10px;
+}
+.input-field{
+    margin-left:10px;
+    width:75%;
+    height:20px;
+}
+.dropdown{
+    margin-left: 10px;
+    width:75%;
+    height:20px;
+    font-size:12px;
+}
+.use,input[type="checkbox"]{
+    float:left;
+}
+.favapp,input[type="radio"]{
+    float:left;
+}
+.checkbox{
+    margin-left:-30px;
+}
+.radio{
+    margin-left:-30px;
+    padding-top:5px;
+}
+#comments{
+    height:40px;
+}
+#button{
+    text-align: center;
+}
+#submit{
+    background-color:#228B22;
+    color:#ffffff;
+    margin:10px;
+    height:40px;
+    width:90px;
+    border-radius:6px;
+    font-size:1.1em;
+    cursor:pointer;
+}
+#submit:hover{
+    background-color:#006400;
+}
+@media (min-width:520px){
+    .labels{
+        display:inline-block;
+        text-align:right;
+        vertical-align:top;
+        width:50%;
+        margin-top:20px;
+    }
+    .righttab{
+        display:inline-block;
+        vertical-align:middle;
+        padding:5px;
+        margin-top:10px;
+    }
+    .input-field{
+        width:25vw;
+    }
+    .dropdown{
+        width:25vw;
+    }
+    .radio, .checkbox {
+        position: relative;
+        left: -50px;
+        margin-left: 5px;
+        padding-bottom: 5px;
+    }
+    #radio-label{
+        margin-top:11px;
+    }
+    #radio-buttons{
+        margin-top:-10px;
+    }
+    #checkbox-label{
+        margin-top:31px;
+    }
+    #comments-label{
+        margin-top:2px;
+    }
+    #comments{
+        margin-top:-10px;
+    }
+}
